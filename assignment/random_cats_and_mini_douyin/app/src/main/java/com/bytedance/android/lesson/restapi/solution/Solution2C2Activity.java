@@ -62,6 +62,13 @@ public class Solution2C2Activity extends AppCompatActivity {
 
     private void initBtns() {
         mBtn = findViewById(R.id.btn);
+        Log.e(TAG, "postVideo: " + ContextCompat.checkSelfPermission(Solution2C2Activity.this, READ_EXTERNAL_STORAGE));
+        if (ContextCompat.checkSelfPermission(Solution2C2Activity.this, READ_EXTERNAL_STORAGE) == -1) {
+            ActivityCompat.requestPermissions(Solution2C2Activity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                    Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
+        }
+        Log.e(TAG, "postVideo: " + ContextCompat.checkSelfPermission(Solution2C2Activity.this, READ_EXTERNAL_STORAGE));
+
         mBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,13 +80,6 @@ public class Solution2C2Activity extends AppCompatActivity {
                 } else if (getString(R.string.post_it).equals(s)) {
                     if (mSelectedVideo != null && mSelectedImage != null) {
                         Log.e(TAG, "post video");
-                        Log.e(TAG, "postVideo: " + ContextCompat.checkSelfPermission(Solution2C2Activity.this, READ_EXTERNAL_STORAGE));
-                        ActivityCompat.requestPermissions(Solution2C2Activity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                                Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
-                        while (ContextCompat.checkSelfPermission(Solution2C2Activity.this, READ_EXTERNAL_STORAGE) == -1) {
-
-                        }
-                        Log.e(TAG, "postVideo: " + ContextCompat.checkSelfPermission(Solution2C2Activity.this, READ_EXTERNAL_STORAGE));
                         postVideo();
                     } else {
                         throw new IllegalArgumentException("error data uri, mSelectedVideo = " + mSelectedVideo + ", mSelectedImage = " + mSelectedImage);

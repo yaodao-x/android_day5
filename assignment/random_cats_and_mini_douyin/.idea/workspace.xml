@@ -12,14 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ae73f5b-338f-4550-8d8a-abf1bb71f119" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/Solution2C1Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/Solution2C1Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/Solution2C2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/Solution2C2Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/bean/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/bean/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/bean/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/bean/Feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/bean/FeedResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/bean/FeedResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/bean/PostVideoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/bean/PostVideoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/newtork/ICatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/newtork/ICatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/newtork/IMiniDouyinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/newtork/IMiniDouyinService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +33,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/Solution2C2Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="80" column="25" lean-forward="true" selection-end-line="259" />
+            <state relative-caret-position="192">
+              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2827#2851#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -279,7 +274,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2077748" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2077748" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -288,11 +283,11 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.32991204" />
-      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.23313783" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="1" sideWeight="0.63672924" visible="true" weight="0.47214076" />
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49930844" weight="0.6539589" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5006916" side_tool="true" weight="0.36307693" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.3632708" side_tool="true" weight="0.41202345" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.29032257" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
@@ -482,10 +477,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bytedance/android/lesson/restapi/solution/Solution2C2Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="80" column="25" lean-forward="true" selection-end-line="259" />
+        <state relative-caret-position="192">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="119" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2827#2851#0" expanded="true" />
           </folding>
         </state>
       </provider>
